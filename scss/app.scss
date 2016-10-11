@@ -50,3 +50,57 @@
 @include motion-ui-animations;
 
 
+
+// Typography
+$title-font:    Helvetica, sans-serif;
+$body-font: Arial;
+$primary-color: #333;
+
+// Colors
+$dark-blue: #003366;
+$gold: #ffc900;
+
+h1{
+	font-family: $title-font;
+}
+
+#header {
+	background-color: $dark-blue;
+	height: 100px;
+	position: relative;
+
+	h1 {color: $gold;}
+
+	#logo
+
+		img {
+		width: 70px;
+		height: 70px;
+		
+		position: absolute;
+		top: -5%;
+		margin-top: -50px;
+
+		margin: 20px;
+		
+	}
+
+	#header_text{
+		position: absolute;
+		top: 65%;
+		margin-top: -50px;
+	}
+
+
+}
+
+#captain_welcome {
+
+	#captain_image img {
+		max-width: 90%;
+		padding-top: 40px;
+	}
+}
+
+
+
