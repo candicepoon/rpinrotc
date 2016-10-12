@@ -72,7 +72,7 @@ h1{
 	h1 {color: $gold;}
 
 	#logo
-
+		
 		img {
 		width: 70px;
 		height: 70px;
@@ -89,16 +89,37 @@ h1{
 		position: absolute;
 		top: 65%;
 		margin-top: -50px;
+
+		@media #{$small-only} { 
+
+			text-align: center;
+
+    	}
 	}
 
 
 }
 
+
+
 #captain_welcome {
 
 	#captain_image img {
+		@media #{$small-only} { 
+
+			display: block;
+    		margin: auto;
+    		max-width: 70%; 
+
+    	}
+
+
 		max-width: 90%;
-		padding-top: 40px;
+
+	}
+
+	#welcome_message {
+		
 	}
 }
 
