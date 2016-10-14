@@ -78,9 +78,7 @@ h1{
 		position: absolute;
 		top: -5%;
 		margin-top: -50px;
-
 		margin: 20px;
-		
 	}
 
 	#header_text{
@@ -95,10 +93,12 @@ h1{
 	}
 }
 
-.slideshow {
-	height: 20%;
-}
+.orbit-container {
+	max-height: 400px;
+	width: auto;
+	
 
+} 
 
 
 #captain_welcome {
@@ -110,21 +110,45 @@ h1{
 			max-width: 70%; 
 		}
 
-
-		// max-width: 90%;
 		padding-top: 15px;
-
 	}
 
 	#welcome_message {
 		@media #{$small-only} { 
 			margin-top: 15px;
+			
 			h2 {
 				text-align: center;
 			}
-
 		}
 	}
+}
+
+.footer {
+	background-color: $dark-blue;
+	margin-top: 15px;
+	position: relative;
+
+	#footer_images {
+
+	}
+
+	#footer_images img{
+		vertical-align: middle;
+		
+	}
+	
+	#address_text {
+		p {
+			color: white;
+			margin-bottom: 8px;
+		}
+
+
+	}
+
+
+
 }
 
 
