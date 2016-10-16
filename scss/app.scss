@@ -64,6 +64,10 @@ h1{
 	font-family: $title-font;
 }
 
+h2 {
+	color: $dark-blue;
+}
+
 #header {
 	background-color: $dark-blue;
 	height: 110px;
@@ -88,29 +92,43 @@ h1{
 
 		@media #{$small-only} { 
 			text-align: center;
+			h1 {
+				font-size: 2rem;
+			}
 
 		}
 	}
 }
 
-.orbit-container {
-	max-height: 400px;
-	width: auto;
-	
+#navigation_bar {
+	margin-bottom: 15px;
+}
 
+.orbit-container {
+	// max-height: 400px;
+	// width: auto;
 } 
 
 
 #captain_welcome {
 
+	#captain_image {
+		position: relative;
+	}
+
 	#captain_image img {
 		@media #{$small-only} { 
 			display: block;
 			margin: auto;
-			max-width: 70%; 
+			max-width: 60%; 
 		}
 
 		padding-top: 15px;
+		max-width: 70%;
+		
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#welcome_message {
@@ -127,21 +145,23 @@ h1{
 .footer {
 	background-color: $dark-blue;
 	margin-top: 15px;
-	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
 
 	#footer_images {
-
+		display: inline-block;
 	}
 
 	#footer_images img{
-		vertical-align: middle;
+		display: inline-block;
+		margin: 0 auto;
 		
 	}
 	
 	#address_text {
 		p {
 			color: white;
-			margin-bottom: 8px;
+			margin-bottom: 2px;
 		}
 
 
