@@ -100,15 +100,11 @@ h2 {
 	}
 }
 
-#navigation_bar {
-	margin-bottom: 15px;
+
+
+.top-bar {
+	background-color: darken($dark-blue, 5%);
 }
-
-.orbit-container {
-	// max-height: 400px;
-	// width: auto;
-} 
-
 
 #captain_welcome {
 
@@ -155,6 +151,7 @@ h2 {
 	#footer_images img{
 		display: inline-block;
 		margin: 0 auto;
+		max-height: 100px;
 		
 	}
 	
