@@ -145,7 +145,8 @@ h2 {
 	padding-bottom: 15px;
 
 	#footer_images {
-		display: inline-block;
+		display: block; 
+		margin: 0 auto;
 	}
 
 	#footer_images img{
