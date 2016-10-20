@@ -9,6 +9,12 @@
 </head>
 <body>
 
+  <!-- Scripts -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/what-input/what-input.js"></script>
+  <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+  <script src="js/app.js"></script>
+    
   <!-- Header -->
   <div id="header">
     <div class="row">
@@ -26,7 +32,7 @@
   </div>
 
  <!--  Navigation Menu -->
-  <div class="top-bar stacked-for-medium stacked-for-large" id="navigation_bar">
+  <div class="top-bar stacked-for-medium stacked-for-large">
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
         <li>
@@ -71,64 +77,21 @@
       </ul>
     </div>
   </div>
-  
-  <!--   Slideshow element -->
-  <div class="row">
-    <div class="large-12 medium-12 small-12 slideshow">
-      <div class="orbit" role="region" aria-label="Homepage Slideshow" data-orbit>
-        <ul class="orbit-container">
-          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-          <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-          <!-- <li class="is-active orbit-slide">
-            <img class="orbit-image" src="assets/img/slideshow1.jpg" alt="Space">
-            <figcaption class="orbit-caption">Navy Ship</figcaption>
-          </li> -->
-          <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/slideshow2.jpg" alt="Space">
-            <figcaption class="orbit-caption">Navy Ship</figcaption>
-          </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/slideshow3.jpg" alt="Space">
-            <figcaption class="orbit-caption">Navy Ship</figcaption>
-          </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/slideshow4.jpg" alt="Space">
-            <figcaption class="orbit-caption">Navy Ship</figcaption>
-          </li>
-          <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/slideshow5.jpg" alt="Space">
-            <figcaption class="orbit-caption">Navy Ship</figcaption>
-          </li>
-        </ul>
-        <nav class="orbit-bullets">
-          <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-          <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-          <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-          <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-        </nav>
+
+    
+    <div class="row" id="history">
+      <div class="large-4 medium-4 small-12 columns" id="captain_image">
+        <img src="assets/img/arensmeyer.jpg" alt="Captain Daniel D. Arensmeyer, USN">
       </div>
 
+      <div class="large-8 medium-8 small-12 columns" id="co_bio_content">
+        <h3 align="center">History of Naval ROTC Program</h3>
+        <p>The Navy department, realizing that a reserve of qualified officers would be needed for expansion incidental to an unforeseen emergency, established the Naval Reserve Officers' Training Corps in 1926. The original units were at the University of California, Northwestern University, University of Washington, Harvard University, Yale University, and Georgia Institute of Technology.</p>
+        <h3 align="center">History of Naval ROTC Unit, RPI</h3>
+        <p>The NROTC Unit, Rensselaer Polytechnic Institute, was commissioned in September 1941 (three months prior to Pearl Harbor) as the first NROTC Unit in the State of New York, and as one of the twenty-eight units located at various colleges and universities throughout the country at that time. During World War II, the Unit was expanded to include the V-12 training programs, but in 1945 it returned to a normal peacetime program. During this same year, the NROTC program was expanded to include twenty-three additional institutions.</p>
+      </div>
+      
     </div>
-
-  </div>
-
-  <!--   Captain's Welcome -->
-  <div class="row" id="captain_welcome">
-    <div class="large-4 medium-4 small-12 columns" id="captain_image">
-      <img src="assets/img/captain_picture.jpg" alt="">
-    </div>
-
-    <div class="large-8 medium-8 small-12 columns end" id="welcome_message">
-      <h2>Captain's Welcome</h2>
-      <p>
-        Bacon ipsum dolor amet meatloaf pork belly andouille meatball ball tip cow spare ribs t-bone kevin shank turducken turkey chuck sirloin picanha. Pastrami cupim porchetta, sausage prosciutto short loin filet mignon beef strip steak fatback. Pork belly boudin spare ribs, t-bone pastrami kielbasa porchetta turkey jowl. Pig tenderloin corned beef, bresaola tri-tip biltong kielbasa hamburger prosciutto beef burgdoggen. Pork chop turkey pancetta, andouille doner shank ball tip pig meatloaf hamburger turducken. Kevin pork chop t-bone alcatra pork rump.
-      </p>
-
-      <p>
-        Sirloin hamburger shankle, spare ribs leberkas beef ribs rump ham. Shoulder burgdoggen jowl, tenderloin t-bone bacon capicola pig meatloaf. Cow landjaeger ground round t-bone, burgdoggen frankfurter short ribs shank ribeye shankle. Spare ribs fatback shank, tail ham hock short ribs rump. Strip steak beef alcatra fatback, sausage capicola chuck t-bone pork loin jowl. Tongue kielbasa meatloaf capicola, kevin jowl meatball leberkas turkey chuck strip steak drumstick swine.
-      </p>
-    </div>
-  </div>
 
 
   <footer class="footer" id="footer">
@@ -166,5 +129,5 @@
   <script src="bower_components/foundation-sites/dist/foundation.js"></script>
   <script src="js/app.js"></script>
 
-</body>
+  </body>
 </html>
