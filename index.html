@@ -9,11 +9,11 @@
 </head>
 <body>
 
-
+  <!-- Header -->
   <div id="header">
     <div class="row">
       <div class="large-2 medium-2 small-6 columns">
-        <a href="#" id="logo">
+        <a href="index.html" id="logo">
           <img src="assets/img/RPI_logo.png" alt="">
         </a>
       </div>
@@ -26,16 +26,16 @@
   </div>
 
  <!--  Navigation Menu -->
-  <div class="top-bar stacked-for-medium stacked-for-large">
+  <div class="top-bar stacked-for-medium stacked-for-large" id="navigation_bar">
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
         <li>
           <a href="#">Prospective Students</a>
           <ul class="menu vertical">
-            <li><a href="#">What is NROTC?</a></li>
+            <li><a href="whatisnrotc.html">What is NROTC?</a></li>
             <li><a href="#">Scholarships</a></li>
             <li><a href="#">Courses</a></li>
-            <li><a href="#">Schedule and Office Interview</a></li>
+            <li><a href="#">Schedule an Officer Interview</a></li>
           </ul>
         </li>
         <li>
@@ -53,12 +53,18 @@
             <li>
               <a href="#">RPI NROTC</a>
               <ul class="menu">
-                <li><a href="#">History</a></li>
+                <li><a href="history.html">History</a></li>
                 <li><a href="#">Notable ROTC Alumni</a></li>
               </ul>
             </li>
-            <li><a href="#">Staff Bios</a></li>
-            <li><a href="#">Points of Contact</a></li>
+            <li>
+              <a href="#">Staff Bios</a>
+              <ul class="menu">
+                <li><a href="co_bio.html">Commanding Officer</a></li>
+                <li><a href="xo_bio.html">Executive Officer</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Points of Contact</a></li>
             <li><a href="#">Careers</a></li>
           </ul>
         </li>
@@ -73,21 +79,25 @@
         <ul class="orbit-container">
           <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
           <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-          <li class="is-active orbit-slide">
-            <img class="orbit-image" src="assets/img/f18slide.jpg" alt="Space">
-            <figcaption class="orbit-caption">Air</figcaption>
+          <!-- <li class="is-active orbit-slide">
+            <img class="orbit-image" src="assets/img/slideshow1.jpg" alt="Space">
+            <figcaption class="orbit-caption">Navy Ship</figcaption>
+          </li> -->
+          <li class="orbit-slide">
+            <img class="orbit-image" src="assets/img/slideshow2.jpg" alt="Space">
+            <figcaption class="orbit-caption">Navy Ship</figcaption>
           </li>
           <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/missleshotslide.jpg" alt="Space">
-            <figcaption class="orbit-caption">Surface</figcaption>
+            <img class="orbit-image" src="assets/img/slideshow3.jpg" alt="Space">
+            <figcaption class="orbit-caption">Navy Ship</figcaption>
           </li>
           <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/subslide.jpg" alt="Space">
-            <figcaption class="orbit-caption">Subarines</figcaption>
+            <img class="orbit-image" src="assets/img/slideshow4.jpg" alt="Space">
+            <figcaption class="orbit-caption">Navy Ship</figcaption>
           </li>
           <li class="orbit-slide">
-            <img class="orbit-image" src="assets/img/roughseasslide.jpg" alt="Space">
-            <figcaption class="orbit-caption">Go Navy</figcaption>
+            <img class="orbit-image" src="assets/img/slideshow5.jpg" alt="Space">
+            <figcaption class="orbit-caption">Navy Ship</figcaption>
           </li>
         </ul>
         <nav class="orbit-bullets">
@@ -121,13 +131,12 @@
   </div>
 
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="row full-width">
-      
 
       <!-- Footer Images -->
       <div class="large-6 medium-6 small-12 columns" id="footer_images">
-          <div class="small-4 medium-4 large-4 columns">
+          <div class="small-4 medium-4 large-4 columns" align="right">
             <a href="https://www.usna.edu/ATFP/"><img src="assets/img/ATFP.png"></a>
           </div>
           <div class="small-4 medium-4 large-4 columns">
@@ -139,11 +148,11 @@
 
       </div>
 
-      
+
 
       <!--   Address Text -->
       <div class="large-6 medium-6 small-12  columns" id="address_text">
-        <p id="mailing_address">NROTCU RPI • AS &amp; RC Room 201 110 8th St. Troy, NY 12180 
+        <p id="mailing_address">NROTCU RPI • AS &amp; RC Room 201 110 8th St. Troy, NY 12180
         <p id="phone_number">Phone: 518-276-8001</p>
         <p id="fax_number">Fax: 518-276-4788</p>
         <p>This is not an official Department of the Navy website.</p>
@@ -151,11 +160,11 @@
     </div>
   </footer>
 
-
-
+  <!-- Scripts -->
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/what-input/what-input.js"></script>
   <script src="bower_components/foundation-sites/dist/foundation.js"></script>
   <script src="js/app.js"></script>
+
 </body>
 </html>

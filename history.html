@@ -9,6 +9,12 @@
 </head>
 <body>
 
+  <!-- Scripts -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/what-input/what-input.js"></script>
+  <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+  <script src="js/app.js"></script>
+    
   <!-- Header -->
   <div id="header">
     <div class="row">
@@ -26,7 +32,7 @@
   </div>
 
  <!--  Navigation Menu -->
-  <div class="top-bar stacked-for-medium stacked-for-large" id="navigation_bar">
+  <div class="top-bar stacked-for-medium stacked-for-large">
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
         <li>
@@ -35,7 +41,7 @@
             <li><a href="whatisnrotc.html">What is NROTC?</a></li>
             <li><a href="#">Scholarships</a></li>
             <li><a href="#">Courses</a></li>
-            <li><a href="#">Schedule an Officer Interview</a></li>
+            <li><a href="#">Schedule and Officer Interview</a></li>
           </ul>
         </li>
         <li>
@@ -71,33 +77,31 @@
       </ul>
     </div>
   </div>
-  
 
-  <div class="row">
-      <div class="large-8 medium-8 small-12 columns">
-    <h3>What is NROTC?</h3>
-    <p>The NROTC Program was established to educate and train qualified young men and women for service as commissioned officers in the unrestricted line Naval Reserve or Marine Corps Reserve. As the largest single source of Navy and Marine Corps officers, the NROTC Scholarship Program plays an important role in preparing mature young men and women for leadership and management positions in an increasingly technical Navy and Marine Corps. Selected applicants for the NROTC Scholarship Program are awarded scholarships through a highly competitive national selection process, and receive full tuition, books, fees and other financial benefits at many of the country's leading colleges and universities. Upon graduation, Midshipmen are commissioned as officers in either the Navy or Marine Corps as active duty officers.</p>
-    <p>The NROTC Scholarship Program is available to qualified students who graduate from high school before August 1st of the year they intend to start college. Students selected for the NROTC Scholarship Program make their own arrangements for college enrollment and room and board, and take the normal course load required by the college or university for degree completion. Additionally, scholarship midshipmen are required to follow specific academic guidelines. Full information concerning the NROTC Scholarship Program is available from any of the colleges and universities with NROTC units or from Navy and Marine Corps recruiters.</p>
-    <h3>Naval ROTC Mission</h3>
-    <p>The NROTC Program was established to educate and train qualified young men and women for service as commissioned officers in the unrestricted line Navy or Marine Corps. As the largest single source of Navy and Marine Corps officers, the NROTC Scholarship Program fills a vital need in preparing mature young men and women for leadership and management positions in an increasingly technical Navy and Marine Corps.</p>
-    <h3>NROTC Unit Rensselaer Polytechnic Institute</h3>
-    <p>Future Navy and Marine Corps Officers of the RPI Unit attend  either Rensselaer Polytechnic Institute in Troy, New York, Union College in  Schenectady, New York, or the Nursing Program at Russell Sage College in Troy,  New York. Our offices are located on the second and third floor of the Alumni  Sports and Recreation Center on 15th Street on the RPI Campus.</p>
-<p>At Rensselaer you will be challenged mentally and physically at an institution committed to enhancing the student experience. Rensselaer represents an outstanding technological university and a vibrant community - an exceptional place to learn, grow, and cultivate your talents. We are a compact campus in an upstate New York city with the resources and activities of larger cities nearby - the New York Capital Region, New York City and Boston. For those interested in the outdoors, the Berkshires, Catskills and Adirondacks provide an ideal setting for sporting activities of all kinds, year round.</p>
-</div>
+    
+    <div class="row" id="history">
+      <div class="large-4 medium-4 small-12 columns" id="captain_image">
+        <img src="assets/img/arensmeyer.jpg" alt="Captain Daniel D. Arensmeyer, USN">
+      </div>
 
-  <div class="large-4 medium-4 small-12 columns">
-    <h3> Did you know?</h3>
-    <p>RPI is one of the few colleges that awards free room and board for all NROTC scholarship students.</p>
-  </div>
-  </div>
-</div>
+      <div class="large-8 medium-8 small-12 columns" id="co_bio_content">
+        <h3 align="center">History of Naval ROTC Program</h3>
+        <p>The Navy department, realizing that a reserve of qualified officers would be needed for expansion incidental to an unforeseen emergency, established the Naval Reserve Officers' Training Corps in 1926. The original units were at the University of California, Northwestern University, University of Washington, Harvard University, Yale University, and Georgia Institute of Technology.</p>
+        <p>The Marine Corps entered the NROTC Program in 1932, offering qualified NROTC graduates commissions in the United States Marine Corps. In 1968, Prairie View A&M became the first Historically Black College (HBC) to host the program. In 1972, the Secretary of the Navy authorized 16 women to enroll in the program and attend school at one of four colleges. Women may now participate in the program while attending any NROTC affiliated college or university. In 1990, the NROTC Scholarship Program was expanded to include applicants pursuing a four-year degree in Nursing, leading to a commission in the Navy Nurse Corps.</p>
+        <p>The mission of the NROTC Program today is to develop young men and women morally, mentally, and physically, and to instill in them the highest ideals of honor, courage, and commitment. The program educates and trains young men and women for leadership positions in an increasingly technical Navy and Marine Corps. Currently there are 63 NROTC units/consortiums hosted at 77 schools throughout the United States.  The NROTC Program is available at over 160 colleges and universities that either host NROTC units or have cross-town enrollment agreements with a host university. Selected applicants for the program are awarded scholarships through a highly competitive national selection process, and receive full tuition and other financial benefits at many of the country's leading colleges and universities.</p>
+        <h3 align="center">History of Naval ROTC Unit, RPI</h3>
+        <p>The NROTC Unit, Rensselaer Polytechnic Institute, was commissioned in September 1941 (three months prior to Pearl Harbor) as the first NROTC Unit in the State of New York, and as one of the twenty-eight units located at various colleges and universities throughout the country at that time. During World War II, the Unit was expanded to include the <a href="https://en.wikipedia.org/wiki/V-12_Navy_College_Training_Program">V-12 training programs</a>, but in 1945 it returned to a normal peacetime program. During this same year, the NROTC program was expanded to include twenty-three additional institutions.</p>
+      </div>
+      
+    </div>
+
 
   <footer class="footer" id="footer">
     <div class="row full-width">
 
       <!-- Footer Images -->
       <div class="large-6 medium-6 small-12 columns" id="footer_images">
-          <div class="small-4 medium-4 large-4 columns">
+          <div class="small-4 medium-4 large-4 columns" align="right">
             <a href="https://www.usna.edu/ATFP/"><img src="assets/img/ATFP.png"></a>
           </div>
           <div class="small-4 medium-4 large-4 columns">
@@ -127,5 +131,5 @@
   <script src="bower_components/foundation-sites/dist/foundation.js"></script>
   <script src="js/app.js"></script>
 
-</body>
+  </body>
 </html>
