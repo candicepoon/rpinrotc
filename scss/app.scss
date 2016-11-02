@@ -91,12 +91,12 @@ h2 {
 	}
 
 	#logo img {
-		width: 80px;
-		height: 80px;
+		width: 100px;
+		height: 100px;
 		
 		position: absolute;
-		top: -5%;
-		margin-top: -50px;
+		top: -15%;
+		margin-top: -35px;
 		margin: 20px;
 	}
 
@@ -124,6 +124,22 @@ h2 {
 
 #navigation_row {
 	background-color: darken($dark-blue, 5%);
+
+	a:link, a:visited { 
+    	color: $gold;
+	}
+
+	a:hover {
+		color: lighten($gold, 50%);
+	}
+
+	.dropdown.menu>li.is-dropdown-submenu-parent>a::after {
+		border-top-color: $gold;
+	}
+
+	.is-dropdown-submenu {
+		border-color: $dark-blue;
+	}
 
 	.top-bar {
 		background-color: darken($dark-blue, 5%);
