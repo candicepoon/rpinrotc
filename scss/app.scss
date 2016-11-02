@@ -121,16 +121,22 @@ h2 {
 
 
 
-.top-bar {
-	background-color: darken($dark-blue, 5%);
-} 
 
-.top-bar ul{
+#navigation_row {
 	background-color: darken($dark-blue, 5%);
-}
 
-.dropdown {
-	background-color: darken($dark-blue, 5%);
+	.top-bar {
+		background-color: darken($dark-blue, 5%);
+	} 
+
+	.top-bar ul{
+		background-color: darken($dark-blue, 5%);
+	}
+
+	.dropdown {
+		background-color: darken($dark-blue, 5%);
+	}
+
 }
 
 #captain_welcome {
