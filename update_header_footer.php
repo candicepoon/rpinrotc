@@ -7,6 +7,7 @@
    "index.html"
 #    "whatisnrotc.html",
 #    "xo_bio.html"
+   "whattoexpect"
   );
 
   foreach ($files as $file) {
