@@ -1,10 +1,10 @@
 <?php
   $files = array(
     "co_bio.html",
-    "scholarships.html"
+    "scholarships.html",
 #    "contact.html",
 #    "history.html",
-#    "index.html",
+   "index.html"
 #    "whatisnrotc.html",
 #    "xo_bio.html"
   );
