@@ -9,6 +9,7 @@
     "xo_bio.html",
     "whattoexpect.html",
     "lifeinthebat.html",
+    "courses.html",
   );
 
   foreach ($files as $file) {
