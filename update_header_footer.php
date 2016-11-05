@@ -2,7 +2,7 @@
   $files = array(
     "co_bio.html",
     "scholarships.html",
-#    "contact.html",
+    "contact.html",
 #    "history.html",
     "index.html",
     "whatisnrotc.html",
