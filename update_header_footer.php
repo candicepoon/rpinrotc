@@ -4,10 +4,11 @@
     "scholarships.html",
 #    "contact.html",
 #    "history.html",
-   "index.html",
-#    "whatisnrotc.html",
-#    "xo_bio.html"
-   "whattoexpect.html",
+    "index.html",
+    "whatisnrotc.html",
+    "xo_bio.html",
+    "whattoexpect.html",
+    "lifeinthebat.html",
   );
 
   foreach ($files as $file) {
