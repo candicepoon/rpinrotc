@@ -3,7 +3,7 @@
     "co_bio.html",
     "scholarships.html",
     "contact.html",
-#    "history.html",
+    "history.html",
     "index.html",
     "whatisnrotc.html",
     "xo_bio.html",
