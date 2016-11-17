@@ -78,6 +78,8 @@ h2 {
 	height: 110px;
 	position: relative;
 
+
+
 	h1 {color: $gold;}
 
 	#color_overlay {
@@ -124,7 +126,9 @@ h2 {
 
 #navigation_row {
 	background-color: darken($dark-blue, 5%);
+	margin-bottom: 15px;
 
+	
 	a:link, a:visited { 
     	color: $gold;
 	}
@@ -152,6 +156,9 @@ h2 {
 	.dropdown {
 		background-color: darken($dark-blue, 5%);
 	}
+
+
+	
 
 }
 
