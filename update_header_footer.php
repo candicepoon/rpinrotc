@@ -8,8 +8,11 @@
     "whatisnrotc.html",
     "xo_bio.html",
     "whattoexpect.html",
-    "lifeinthebat.html",
+    "shipscompany.html",
     "courses.html",
+    "careers.html",
+    "usefullinks.html",
+    "approvedcourses.html",
   );
 
   foreach ($files as $file) {
