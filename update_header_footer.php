@@ -13,6 +13,7 @@
     "careers.html",
     "usefullinks.html",
     "approvedcourses.html",
+    "rpinrotcalum.html",
   );
 
   foreach ($files as $file) {
